@@ -1,3 +1,6 @@
+import Login from './login/page'
+import './globals.css'
+
 export const metadata = {
   title: "Book Review App",
   description: "A modern book review platform built with Next.js",
