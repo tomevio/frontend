@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+*, *::before, *::after {
+  box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+}
+
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
