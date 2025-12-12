@@ -1,4 +1,3 @@
-import Login from './login/page'
 import './globals.css'
 
 export const metadata = {
