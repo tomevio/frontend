@@ -87,7 +87,7 @@ const Page = () => {
                             <input 
                             type="text" 
                             placeholder="Username" 
-                            className="shadow-[0_0_15px_rgba(34,197,94,0.2)] pl-12 w-full px-6 py-4 rounded-4xl bg-[linear-gradient(to_right,#3a4443bf,#2a2c31bf)] border-none focus:border-none focus:outline-none focus:ring-0"
+                            className="shadow-[0_0_15px_rgba(34,197,94,0.2)] pl-12 w-full px-4 py-3 rounded-4xl bg-[linear-gradient(to_right,#3a4443bf,#2a2c31bf)] border-none focus:border-none focus:outline-none focus:ring-0"
                             />
                             <User className="absolute left-4 top-1/2 -translate-y-1/2" />
                         </div>
@@ -95,7 +95,7 @@ const Page = () => {
                             <input 
                             type="password" 
                             placeholder="Password" 
-                            className="shadow-[0_0_15px_rgba(34,197,94,0.2)] pl-12 w-full px-6 py-4 rounded-4xl bg-[linear-gradient(to_right,#3a4443bf,#2a2c31bf)] border-none focus:border-none focus:outline-none focus:ring-0"
+                            className="shadow-[0_0_15px_rgba(34,197,94,0.2)] pl-12 w-full px-4 py-3 rounded-4xl bg-[linear-gradient(to_right,#3a4443bf,#2a2c31bf)] border-none focus:border-none focus:outline-none focus:ring-0"
                             />
                             <LockKeyhole className="absolute left-4 top-1/2 -translate-y-1/2" />
                         </div>
@@ -107,7 +107,7 @@ const Page = () => {
                     </div>
                     
                     {/* Login Button */}
-                    <button className="shadow-[0_0_15px_rgba(34,197,94,0.2)] w-full py-4 bg-[#3a4443]  text-white font-semibold rounded-4xl ">
+                    <button className="shadow-[0_0_15px_rgba(34,197,94,0.2)] w-full py-3 bg-[#3a4443]  text-white font-semibold rounded-4xl ">
                         Login
                     </button>
 
@@ -117,6 +117,13 @@ const Page = () => {
                         <p className="text-gray-400 text-sm font-medium">OR</p>
                         <hr className="flex-1 border-gray-300" />
                     </div>
+
+            
+                    <button className="bg-gray-300 text-black gap-3 rounded-full p-3 flex w-full items-center justify-center">
+                        <img src="google.png" alt="google-logo" height={4} width={20}></img>
+                        Continue with Google
+                    </button>
+
                     
                     {/* Sign Up Link */}
                     <p className="text-center text-sm lg:text-base text-gray-300">

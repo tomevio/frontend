@@ -27,7 +27,7 @@ const Sidebar = () => {
     return(
         <>
         {/* Mobile bottom nav */}
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-grey-50 text-[#3a4443] ">
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-gray-50 text-[#3a4443] ">
         <ul className="flex justify-around items-center h-16">
           {navItemsMobile.map(({ label, icon: Icon }) => (
             <li key={label}>
