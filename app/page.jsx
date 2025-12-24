@@ -52,7 +52,7 @@ const Page = () => {
                 }
             `}</style>
 
-        <div className="bg-[linear-gradient(to_bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.85),rgba(0,0,0,1)),url('/books.avif')] lg:bg-[linear-gradient(to_right,rgba(0,0,0,0.3),rgba(0,0,0,0.85),rgba(0,0,0,1)),url('/books.avif')] bg-cover bg-no-repeat lg:bg-cover bg-top lg:bg-center h-screen w-screen overflow-hidden flex flex-col lg:flex-row ">
+        <div className="bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.85),rgba(0,0,0,1)),url('/books.avif')] lg:bg-[linear-gradient(to_right,rgba(0,0,0,0.3),rgba(0,0,0,0.85),rgba(0,0,0,1)),url('/books.avif')] bg-cover bg-no-repeat lg:bg-cover bg-top lg:bg-center h-screen w-screen overflow-hidden flex flex-col lg:flex-row overflow-y-auto ">
         {/* Initial particles */}
                 <div className="particle" style={{ top: '15%', left: '20%', animationDelay: '0s', animationDuration: '10s' }}></div>
                 
@@ -68,7 +68,7 @@ const Page = () => {
             </div>
         
             {/* Right Panel - Login Form */}
-            <div className="flex-1 flex flex-col items-center justify-center overflow-hidden px-6 lg:px-12 py-8">
+            <div className="flex-1 flex flex-col items-center justify-center  px-6 lg:px-12 py-8">
                 <div className="w-full max-w-md space-y-8">
                     {/* Header */}
                     <div className="space-y-4">
